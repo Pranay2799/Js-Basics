@@ -1,8 +1,8 @@
-var items = document.getElementsByClassName('list-group-item');
+var li = document.getElementsByTagName('li');
 //items.style.fontWeight='bold'
-items[2].style.backgroundColor='green'
+li[2].style.backgroundColor='green'
 
-for(var i=0; i<items.length;i++){
-    items[i].style.fontWeight="bold"
-    items[i].style.color="pink"
+for(var i=0; i<li.length;i++){
+    li[i].style.fontWeight="bold"
+  li[i].style.color="pink"
 }
